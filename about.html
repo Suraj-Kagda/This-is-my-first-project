@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Paradise - About Us</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.codedex.io/images/foxboy.gif" type="image/gif">
+    <link rel="shortcut icon" href="https://www.codedex.io/images/foxboy.gif" type="image/gif">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- GSAP and ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="about.js"></script>
+</head>
+<body>
+    <!-- Video Background Container -->
+    <div class="video-background">
+        <video autoplay muted loop id="bgVideo" playsinline>
+            <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-brand">Anime Paradise</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="contact.html">Contact</a>
+            <button id="theme-toggle" class="modern-button">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="about-hero">
+            <div class="hero-content">
+                <h1>About Anime Paradise</h1>
+                <p>Your ultimate destination for discovering and exploring the magical world of anime</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Anime Titles</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Genres</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10M+</div>
+                        <div class="stat-label">Monthly Visitors</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="about-container">
+            <!-- Our Story Section -->
+            <section class="about-content section-visible">
+                <h2>Our Story</h2>
+                <p>Anime | Paradise was born from the shared passion of three friends—Suraj Kagda, Amit, and Rajan—who envisioned creating the ultimate haven for anime lovers. What started as a simple idea soon evolved into a full-fledged platform that celebrates the beauty of anime, its culture, and its dedicated community.
+
+                </p>
+                
+                <div class="founder-section">
+                    <div class="founder-image">
+                        <img src="file:///C:/Users/91989/Downloads/profile.jpg/WhatsApp%20Image%202025-03-13%20at%2001.45.54_9703e700.jpg" alt="Suraj Kagda" class="circle-image">
+                    </div>
+                    <div class="founder-info">
+                        <h3>👑 Suraj Kagda</h3>
+                        <p class="founder-title">Founder & Lead Curator</p>
+                        <p>"The mastermind behind Anime | Paradise, Suraj Kagda, is not just the CEO but also the heart and soul of this platform. His love for anime and technology drove him to build a place where fans could connect, explore, and dive into the world of anime like never before."</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What We Offer Section -->
+            <section class="features-section section-visible">
+                <h2>What We Offer</h2>
+                <ul class="features-list">
+                    <li>
+                        <i class="fas fa-search"></i>
+                        <h3>Discover</h3>
+                        <p>Find new anime based on your preferences with our advanced search and filtering system</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-star"></i>
+                        <h3>Rate & Review</h3>
+                        <p>Share your thoughts and see what others think about your favorite shows</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-heart"></i>
+                        <h3>Curated Lists</h3>
+                        <p>Explore our handpicked collections organized by genre, theme, and popularity</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <h3>Community</h3>
+                        <p>Connect with fellow anime enthusiasts and participate in discussions</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-bell"></i>
+                        <h3>Updates</h3>
+                        <p>Stay informed about new releases, upcoming shows, and industry news</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Accessibility</h3>
+                        <p>Enjoy a seamless experience across all your devices with our responsive design</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Our Platform Section -->
+            <section class="platform-section section-visible">
+                <h2>Our Platform</h2>
+                <div class="platform-grid">
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Smart Search</h3>
+                        <p>Advanced filtering and search capabilities to find your perfect anime match</p>
+                        <ul class="platform-features">
+                            <li><i class="fas fa-check"></i> Genre-based filtering</li>
+                            <li><i class="fas fa-check"></i> Rating-based sorting</li>
+                            <li><i class="fas fa-check"></i> Year and season filters</li>
+                        </ul>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3>Personalized Experience</h3>
+                        <p>Custom recommendations based on your viewing history and preferences</p>
+                        <ul class="platform-features">
+                            <li><i class="fas fa-check"></i> Watchlist management</li>
+                            <li><i class="fas fa-check"></i> Custom playlists</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                        </ul>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Community Features</h3>
+                        <p>Connect with fellow anime enthusiasts and share your thoughts</p>
+                        <ul class="platform-features">
+                            <li><i class="fas fa-check"></i> Discussion forums</li>
+                            <li><i class="fas fa-check"></i> Review system</li>
+                            <li><i class="fas fa-check"></i> Rating system</li>
+                        </ul>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Cross-Platform</h3>
+                        <p>Seamless experience across all your devices</p>
+                        <ul class="platform-features">
+                            <li><i class="fas fa-check"></i> Mobile responsive</li>
+                            <li><i class="fas fa-check"></i> Offline viewing</li>
+                            <li><i class="fas fa-check"></i> Sync across devices</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3D Image Gallery Section -->
+            <section class="gallery-section section-visible">
+                <h2>Our Anime Collection</h2>
+                <div class="gallery-container">
+                    <div class="gallery-wrapper">
+                        <div class="gallery-item" data-tilt>
+                            <img src="https://i.pinimg.com/564x/4c/9c/49/4c9c49b94e4204085e23da2241c4194d.jpg" alt="Attack on Titan">
+                            <div class="gallery-overlay">
+                                <h3>Attack on Titan</h3>
+                                <p>Action, Drama, Fantasy</p>
+                                <span class="rating">⭐ 9.0</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-tilt>
+                            <img src="https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Demon Slayer">
+                            <div class="gallery-overlay">
+                                <h3>Demon Slayer</h3>
+                                <p>Action, Supernatural</p>
+                                <span class="rating">⭐ 8.9</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-tilt>
+                            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12793542_b_v13_ak.jpg" alt="My Hero Academia">
+                            <div class="gallery-overlay">
+                                <h3>My Hero Academia</h3>
+                                <p>Action, Comedy</p>
+                                <span class="rating">⭐ 8.4</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-tilt>
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_.jpg" alt="One Punch Man">
+                            <div class="gallery-overlay">
+                                <h3>One Punch Man</h3>
+                                <p>Action, Comedy</p>
+                                <span class="rating">⭐ 8.7</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-tilt>
+                            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJCp1AIyMA0ykJNEgaou1TA5lNcCIE3YzqFCd8l9yY5W4L1MrRVK2fWWasbjkx-mRwrlqv" alt="Death Note">
+                            <div class="gallery-overlay">
+                                <h3>Death Note</h3>
+                                <p>Psychological Thriller</p>
+                                <span class="rating">⭐ 8.8</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-tilt>
+                            <img src="https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Fullmetal Alchemist">
+                            <div class="gallery-overlay">
+                                <h3>Fullmetal Alchemist</h3>
+                                <p>Action, Adventure, Fantasy</p>
+                                <span class="rating">⭐ 9.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="gallery-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="team-section section-visible">
+                <h2>Meet Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="file:///C:/Users/91989/Downloads/profile.jpg/WhatsApp%20Image%202025-03-13%20at%2001.45.54_9703e700.jpg" alt="Team Member">
+                        <h3>Suraj Kagda</h3>
+                        <p>The Investor & Visionary</p>
+                        <div class="social-links">
+                            <a href="https://x.com/surajkagda0"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="file:///C:/Users/91989/Downloads/profile.jpg/WhatsApp%20Image%202025-03-13%20at%2001.45.54_9703e700.jpg" alt="Team Member">
+                        <h3>Suraj Kagda</h3>
+                        <p>Founder & Lead Curator</p>
+                        <div class="social-links">
+                            <a href="https://x.com/surajkagda0"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="file:///C:/Users/91989/Downloads/profile.jpg/WhatsApp%20Image%202025-03-13%20at%2001.45.54_9703e700.jpg" alt="Team Member">
+                        <h3>Suraj Kagda</h3>
+                        <p> The Teammate & Core Contributor</p>
+                        <div class="social-links">
+                            <a href="https://x.com/surajkagda0"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="file:///C:/Users/91989/Downloads/profile.jpg/WhatsApp%20Image%202025-03-13%20at%2001.45.54_9703e700.jpg" alt="Team Member">
+                        <h3>Suraj Kagda</h3>
+                        <p>UI/UX Designer</p>
+                        <div class="social-links">
+                            <a href="https://x.com/surajkagda0"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="testimonials-section section-visible">
+                <h2>What Our Users Say</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p>Anime Paradise has completely transformed how I discover new anime. The recommendations are spot-on, and I love the clean interface!</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.imgur.com/QIrZWGc.jpg" alt="User">
+                            <div>
+                                <h4>Sarah K.</h4>
+                                <p>Anime enthusiast since 2010</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p>As someone new to anime, this site has been invaluable. The detailed descriptions and genre classifications helped me find shows I truly enjoy.</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.imgur.com/8oJkSBP.jpg" alt="User">
+                            <div>
+                                <h4>Michael T.</h4>
+                                <p>New anime fan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p>The community here is amazing! I've connected with so many fellow fans and discovered hidden gems I would have never found otherwise.</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.imgur.com/J8eVBdX.jpg" alt="User">
+                            <div>
+                                <h4>Aiko R.</h4>
+                                <p>Member since 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter Section -->
+            <section class="newsletter-section section-visible">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to receive updates on new anime releases, features, and community events.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="modern-button">Subscribe</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Anime Paradise</h3>
+                <p>Your ultimate destination for discovering and exploring the magical world of anime.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/surajkagda0"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="contact-links">
+                    <li><a href="mailto:info@animeparadise.com"><i class="fas fa-envelope"></i> info@animeparadise.com</a></li>
+                    <li><a href="tel:+11234567890"><i class="fas fa-phone"></i> +1 (123) 456-7890</a></li>
+                    <li><a href="https://maps.google.com/?q=Tokyo,Japan" target="_blank"><i class="fas fa-map-marker-alt"></i> Delhi , India</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Anime Paradise. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize animations
+            initAnimations();
+            
+            // Handle theme toggle
+            const themeToggle = document.getElementById('theme-toggle');
+            const icon = themeToggle.querySelector('i');
+
+            themeToggle.addEventListener('click', () => {
+                document.body.dataset.theme = document.body.dataset.theme === 'dark' ? '' : 'dark';
+                icon.className = document.body.dataset.theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+                localStorage.setItem('theme', document.body.dataset.theme);
+                
+                // Animate icon
+                icon.style.transform = 'rotate(360deg)';
+                setTimeout(() => {
+                    icon.style.transform = '';
+                }, 500);
+            });
+
+            // Load saved theme
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.body.dataset.theme = savedTheme;
+                icon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+            }
+
+            // Handle video background with error handling
+            const video = document.getElementById('bgVideo');
+            if (video) {
+                video.addEventListener('canplay', () => {
+                    video.play().catch(function(error) {
+                        console.log("Video autoplay failed:", error);
+                        // Add a play button as fallback if autoplay fails
+                        const playButton = document.createElement('button');
+                        playButton.innerHTML = '<i class="fas fa-play"></i>';
+                        playButton.className = 'video-play-button';
+                        playButton.addEventListener('click', () => video.play());
+                        document.querySelector('.video-background').appendChild(playButton);
+                    });
+                });
+                
+                // Add error handling for video
+                video.addEventListener('error', (e) => {
+                    console.error('Video error:', e);
+                    document.querySelector('.video-background').style.backgroundColor = '#1a1a1a';
+                });
+            }
+
+            // Scroll animations using Intersection Observer
+            function initAnimations() {
+                // GSAP animations for hero section
+                gsap.from('.hero-content h1', {
+                    opacity: 0,
+                    y: 50,
+                    duration: 1,
+                    ease: "power3.out"
+                });
+                
+                gsap.from('.hero-content p', {
+                    opacity: 0,
+                    y: 30,
+                    duration: 1,
+                    delay: 0.3,
+                    ease: "power3.out"
+                });
+                
+                gsap.from('.stat-item', {
+                    opacity: 0,
+                    y: 30,
+                    duration: 0.8,
+                    stagger: 0.2,
+                    delay: 0.6,
+                    ease: "power3.out"
+                });
+                
+                // Intersection Observer for scroll animations
+                const sections = document.querySelectorAll('.section-visible');
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-revealed');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.15,
+                    rootMargin: '0px 0px -10% 0px'
+                });
+                
+                sections.forEach(section => {
+                    observer.observe(section);
+                });
+                
+                // Animate specific elements within sections
+                const featureItems = document.querySelectorAll('.features-list li');
+                const featureObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            gsap.to(entry.target, {
+                                opacity: 1,
+                                y: 0,
+                                duration: 0.5,
+                                stagger: 0.1,
+                                ease: "power2.out"
+                            });
+                            featureObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                featureItems.forEach(item => {
+                    gsap.set(item, { opacity: 0, y: 20 });
+                    featureObserver.observe(item);
+                });
+                
+                // Platform features animation
+                const platformFeatures = document.querySelectorAll('.platform-feature');
+                const platformObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            gsap.to(entry.target, {
+                                opacity: 1,
+                                y: 0,
+                                duration: 0.5,
+                                ease: "power2.out"
+                            });
+                            platformObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                platformFeatures.forEach(feature => {
+                    gsap.set(feature, { opacity: 0, y: 20 });
+                    platformObserver.observe(feature);
+                });
+                
+                // Team members animation
+                const teamMembers = document.querySelectorAll('.team-member');
+                const teamObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            gsap.to(entry.target, {
+                                opacity: 1,
+                                y: 0,
+                                duration: 0.5,
+                                ease: "power2.out"
+                            });
+                            teamObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                teamMembers.forEach(member => {
+                    gsap.set(member, { opacity: 0, y: 20 });
+                    teamObserver.observe(member);
+                });
+                
+                // Testimonials animation
+                const testimonials = document.querySelectorAll('.testimonial');
+                const testimonialObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            gsap.to(entry.target, {
+                                opacity: 1,
+                                y: 0,
+                                duration: 0.5,
+                                ease: "power2.out"
+                            });
+                            testimonialObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                testimonials.forEach(testimonial => {
+                    gsap.set(testimonial, { opacity: 0, y: 20 });
+                    testimonialObserver.observe(testimonial);
+                });
+            }
+            
+            // Make all sections visible initially to fix any display issues
+            document.querySelectorAll('.section-visible').forEach(section => {
+                section.style.opacity = '1';
+                section.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+    
+    <!-- Gallery Navigation Script -->
+    <script>
+        // Additional script to ensure gallery buttons work
+        document.addEventListener('DOMContentLoaded', function() {
+            const prevBtn = document.querySelector('.gallery-btn.prev-btn');
+            const nextBtn = document.querySelector('.gallery-btn.next-btn');
+            const galleryWrapper = document.querySelector('.gallery-wrapper');
+            const items = document.querySelectorAll('.gallery-item');
+            
+            if (prevBtn && nextBtn && galleryWrapper && items.length) {
+                console.log("Gallery buttons initialized");
+                
+                // Set initial active state
+                items[0].classList.add('active');
+                
+                // Add direct click handlers
+                prevBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log("Previous button clicked");
+                    
+                    const currentItem = document.querySelector('.gallery-item.active') || items[0];
+                    const currentIndex = Array.from(items).indexOf(currentItem);
+                    const newIndex = (currentIndex - 1 + items.length) % items.length;
+                    const itemWidth = items[0].offsetWidth + 32;
+                    
+                    galleryWrapper.style.transform = `translateX(-${newIndex * itemWidth}px)`;
+                    
+                    items.forEach((item, index) => {
+                        item.classList.toggle('active', index === newIndex);
+                    });
+                });
+                
+                nextBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log("Next button clicked");
+                    
+                    const currentItem = document.querySelector('.gallery-item.active') || items[0];
+                    const currentIndex = Array.from(items).indexOf(currentItem);
+                    const newIndex = (currentIndex + 1) % items.length;
+                    const itemWidth = items[0].offsetWidth + 32;
+                    
+                    galleryWrapper.style.transform = `translateX(-${newIndex * itemWidth}px)`;
+                    
+                    items.forEach((item, index) => {
+                        item.classList.toggle('active', index === newIndex);
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

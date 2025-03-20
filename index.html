@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Paradise - Home</title>
+    <link rel="icon" href="https://www.codedex.io/images/foxboy.gif" type="image/gif">
+    <link rel="shortcut icon" href="https://www.codedex.io/images/foxboy.gif" type="image/gif">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bgVideo" playsinline>
+            <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-brand">Anime | Paradise</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+            <button id="theme-toggle" class="modern-button">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Discover Amazing Anime</h1>
+            <p>Explore the best anime series and movies all in one place</p>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="animeSearch" placeholder="Search for anime...">
+                    <button class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="leaderboard-section">
+            <div class="leaderboard-header">
+                <h1>Top Anime Rankings</h1>
+            </div>
+
+            <div class="leaderboard-container">
+                <div class="leaderboard-wrapper">
+                    <div id="grid1" class="leaderboard-grid"></div>
+                    <div id="grid2" class="leaderboard-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="anime-section">
+            <h2>All Anime</h2>
+            <div class="anime-grid" id="animeGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anime Paradise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
