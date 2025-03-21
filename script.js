@@ -98,12 +98,12 @@ const animeData = [
     },
     {
         id: 12,
-        title: "Overflow",
-        image: "https://static.wikia.nocookie.net/international-entertainment-project/images/7/76/%E3%81%8A%E3%83%BC%E3%81%B0%E3%83%BC%E3%81%B5%E3%82%8D%E3%81%89_-_Poster_%28Japanese%29.png/revision/latest/thumbnail/width/360/height/450?cb=20240402045026",
-        description: "A slice-of-life story about Kazushi Sudou, a college student who ends up living with his childhood friend Ayane and her younger sister Kotone after certain circumstances. The series follows their daily lives and relationships as they navigate various situations together.",
-        rating: "7.2",
-        genre: "Slice of Life, Romance, Drama",
-        likes: 5000
+        title: "Crazy Over His Fingers",
+        image: "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fseries%2F379925%2Fposters%2F5e9077e14daff.jpg&w=640&q=75",
+        description: "Hoshiya Fumi, an assistant at a renowned city salon, trains under the strict yet skilled Sousuke, whose unexpected romantic interest in her sparks after an accidental splash of water.",
+        rating: "4.8",
+        genre: "shoujo, Romance, Drama",
+        likes: 500
     }
 ];
 
