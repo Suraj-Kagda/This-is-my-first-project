@@ -105,6 +105,15 @@ const animeData = [
         genre: "shoujo, Romance, Drama",
         likes: 500
     }
+    {
+        id: 12,
+        title: "Devil May Cry",
+        image: "https://i.redd.it/bmz9thyik0ue1.jpeg",
+        description: "Hoshiya Fumi, an assistant at a renowned city salon, trains under the strict yet skilled Sousuke, whose unexpected romantic interest in her sparks after an accidental splash of water.",
+        rating: "4.8",
+        genre: "shoujo, Romance, Drama",
+        likes: 500
+    }
 ];
 
 // Initialize variables for scrolling
