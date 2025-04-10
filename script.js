@@ -109,10 +109,10 @@ const animeData = [
         id: 13,
         title: "Devil May Cry",
         image: "https://i.redd.it/bmz9thyik0ue1.jpeg",
-        description: "Hoshiya Fumi, an assistant at a renowned city salon, trains under the strict yet skilled Sousuke, whose unexpected romantic interest in her sparks after an accidental splash of water.",
+        description: "Devil May Cry is a science fantasy action-adventure game franchise created by Hideki Kamiya. It is primarily developed and published by Capcom. The series centers on the demon hunter Dante and his efforts to thwart various demon invasions of Earth.",
         rating: "4.8",
-        genre: "shoujo, Romance, Drama",
-        likes: 500
+        genre: "Action-adventure; Hack and slash ",
+        likes: 5000
     }
 ];
 
