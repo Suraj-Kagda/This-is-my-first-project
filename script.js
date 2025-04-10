@@ -111,7 +111,7 @@ const animeData = [
         image: "https://i.redd.it/bmz9thyik0ue1.jpeg",
         description: "Devil May Cry is a science fantasy action-adventure game franchise created by Hideki Kamiya. It is primarily developed and published by Capcom. The series centers on the demon hunter Dante and his efforts to thwart various demon invasions of Earth.",
         rating: "4.8",
-        genre: "Action-adventure; Hack and slash ",
+        genre: "Action-adventure, Hack and slash ",
         likes: 5000
     }
 ];
