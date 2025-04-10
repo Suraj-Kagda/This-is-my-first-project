@@ -72,7 +72,7 @@ const animeData = [
     {
         id: 9,
         title: "Solo Leveling",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrE8T7VeZ1CS5xO3zz5rRUir4tGcppFZSWBNWes2Rx5jrd69SUl5hx8PWv6vhRlfNslvQK-LzgqP6VvUhMjvf7VI-5z7B26d2XdF6pxA",
+        image: "https://i.pinimg.com/736x/c0/3d/68/c03d6862fe6fd5d12e56b8a0e386308e.jpg",
         description: "In a world where hunters must battle deadly monsters to protect humanity, Sung Jin-Woo is known as the weakest of all hunters. After a near-death experience in a mysterious double dungeon, he gains an extraordinary power that allows him to level up infinitely, changing his life forever.",
         rating: "8.9",
         genre: "Action, Adventure, Fantasy",
@@ -90,7 +90,7 @@ const animeData = [
     {
         id: 11,
         title: "Jujutsu Kaisen",
-        image: "https://m.media-amazon.com/images/M/MV5BMTMwMDM4N2EtOTJiYy00OTQ0LThlZDYtYWUwOWFlY2IxZGVjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+        image: "https://i.pinimg.com/736x/49/8a/e6/498ae6d50e982ce113b27cc93c90e846.jpg",
         description: "Yuji Itadori, a high school student with extraordinary physical abilities, gets involved in the world of Jujutsu Sorcery when he swallows a cursed object to save his friends. Now enrolled in Tokyo Jujutsu High, he must learn to harness cursed energy while battling dangerous curses alongside his classmates.",
         rating: "8.7",
         genre: "Action, Supernatural, Dark Fantasy",
